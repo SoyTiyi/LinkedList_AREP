@@ -9,7 +9,8 @@ class Statics {
 		for(int i=0; i<numbers.size(); i++){
 			sum += numbers.get(i);
 		}
-		return sum/ numbers.size();
+		System.out.println((Math.floor(sum/ numbers.size() * 100) / 100));
+		return (Math.floor(sum/ numbers.size() * 100) / 100);
 	}
 
 	public static Double standardDesviation(LinkedList numbers){
@@ -18,7 +19,8 @@ class Statics {
 		for(int i=0; i<numbers.size(); i++){
 			temp+= Math.pow(numbers.get(i)-mean, 2);
 		}
-		Double inSide = temp/numbers.size();
-		return Math.sqrt(inSide);
+		/* System.out.println(temp + " Sumatoria"); */
+		Double inSide = temp/(numbers.size()-1);
+		return (Math.floor(Math.sqrt(inSide) * 100) / 100);
 	}
 }
