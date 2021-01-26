@@ -22,7 +22,7 @@ $ cd LinkedList_AREP
  ```sh
 $ mvn package
  ```
- Y finalmente para ejecutar la aplicacion 
+ Y finalmente para ejecutar la aplicacion.
 
  ```sh
 $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.App"
