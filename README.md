@@ -17,7 +17,7 @@ $ git clone https://github.com/SoyTiyi/LinkedList_AREP.git
 ```sh
 $ cd LinkedList_AREP
  ```
- Ahora descargaremos las dependencias de nuestro programa
+ Ahora descargaremos las dependencias de nuestro programa.
 
  ```sh
 $ mvn package
