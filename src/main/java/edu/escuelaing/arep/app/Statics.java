@@ -15,7 +15,7 @@ class Statics {
 		for(int i=0; i<numbers.size(); i++){
 			sum += numbers.get(i);
 		}
-		System.out.println((Math.floor(sum/ numbers.size() * 100) / 100));
+		/* System.out.println((Math.floor(sum/ numbers.size() * 100) / 100)); */
 		return (Math.floor(sum/ numbers.size() * 100) / 100);
 	}
 
