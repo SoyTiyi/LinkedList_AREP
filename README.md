@@ -25,7 +25,7 @@ $ mvn package
  Y finalmente para ejecutar la aplicacion.
 
  ```sh
-$ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.App"
+$ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Main"
  ```
 
 ### Prerequisitos
